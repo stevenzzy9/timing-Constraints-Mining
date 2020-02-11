@@ -1,0 +1,10 @@
+Create Fine:{}
+Send Fine:{Create Fine,Notify Result Appeal to Offender}
+Insert Fine Notification:{Send Fine}
+Payment:{Create Fine,Notify Result Appeal to Offender}
+Insert Date Appeal to Prefecture:{Insert Fine Notification,Send Appeal to Prefecture}
+Send Appeal to Prefecture:{Insert Date Appeal to Prefecture}
+Receive Result Appeal from Prefecture:{Add penalty}
+Add penalty:{Insert Fine Notification,Send Appeal to Prefecture}
+Notify Result Appeal to Offender:{Receive Result Appeal from Prefecture}
+Send for Credit Collection:{Add penalty}
